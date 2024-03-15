@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKR</title>
+    <script src="https://kit.fontawesome.com/7ef3370125.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Arvind Kumar Rai</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="display-4">Hello !</h2>
+            <p class="lead">"Passionate problem solver, tech enthusiast, and lifelong learner</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <h3 class="display-4">Skills</h3>
+    
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex flex-wrap">
+                        <div class="card flex-grow-1 m-2">
+                            <div class="card-body">
+                                <h5 class="card-title">Languages <i class="fa-solid fa-code"></i></h5>
+                                <p class="card-text">C, C++, Python, Java</p>
+                            </div>
+                        </div>
+                        <div class="card flex-grow-1 m-2">
+                            <div class="card-body">
+                                <h5 class="card-title">Frontend <i class="fa-brands fa-css3"></i> <i class="fa-brands fa-js"></i> <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-bootstrap"></i></h5>
+                                <p class="card-text">HTML, CSS, JavaScript, Bootstrap </p>
+                            </div>
+                        </div>
+                        <div class="card flex-grow-1 m-2">
+                            <div class="card-body">
+                                <h5 class="card-title">Backend <i class="fa-solid fa-terminal"></i></h5>
+                                <p class="card-text">Node.js, Express.js, Django</p>
+                            </div>
+                        </div>
+                        <div class="card flex-grow-1 m-2">
+                            <div class="card-body">
+                                <h5 class="card-title">Database <i class="fa-solid fa-database"></i></h5>
+                                <p class="card-text">SQL, MongoDB</p>
+                            </div>
+                        </div>
+                        <div class="card flex-grow-1 m-2">
+                            <div class="card-body">
+                                <h5 class="card-title">Data Science <i class="fa-brands fa-python"></i></h5>
+                                <p class="card-text">Python, R, Excel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add your portfolio items here if you have any -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <!-- <h2 class="display-4">Contact Me</h2> -->
+            <!-- My contact form here -->
+            <section id="contact" class="py-5">
+                <div class="container">
+                    <h2 class="display-4">Contact Me</h2>
+                    <form id="contact-form" method="POST" action="">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <!-- Social links -->
+            <div class="social-links">
+                <a href="mailto:rai840900@gmail.com" class="social-link" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/arvind-rai-391a81277/" class="social-link" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Arvindrai18" class="social-link" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/ArvindRai296110" class="social-link" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            AKR
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
